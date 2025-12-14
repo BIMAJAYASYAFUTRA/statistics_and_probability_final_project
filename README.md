@@ -2,9 +2,9 @@
 
 ## 1. Informasi Penyusun
 
-- **Nama:** `[NAMA LENGKAP MAHASISWA]`
-- **NIM:** `[NOMOR INDUK MAHASISWA]`
-- **Program Studi:** `[PROGRAM STUDI]`
+- **Nama:** `I Gusti Agung Widi Adinatha`
+- **NIM:** `2515101110`
+- **Program Studi:** `Ilmu Komputer`
 - **Mata Kuliah:** Statistika dan Probabilitas
 
 ---

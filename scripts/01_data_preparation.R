@@ -32,7 +32,7 @@ library(tidyverse)
 
 tryCatch({
   # Ganti nama file di bawah ini
-  file_path <- "../data/nama_file_data.csv"
+  file_path <- "../data/kelahiran_kematian.csv"
   data <- read_csv(file_path)
   
   # Pesan jika berhasil
@@ -70,7 +70,7 @@ print(colSums(is.na(data)))
 
 # Jika ada missing values, Anda harus memutuskan cara menanganinya.
 # Opsi 1: Hapus baris yang mengandung missing value (gunakan dengan hati-hati).
-# data_bersih <- na.omit(data)
+data_bersih <- na.omit(data)
 
 # Opsi 2: Isi missing value dengan nilai tertentu (misalnya, mean atau median).
 # Ganti 'nama_kolom' dengan kolom yang ingin Anda isi.
@@ -83,3 +83,4 @@ data_bersih <- data
 
 # Pesan akhir
 print("Persiapan data selesai. Variabel 'data_bersih' siap digunakan untuk analisis selanjutnya.")
+

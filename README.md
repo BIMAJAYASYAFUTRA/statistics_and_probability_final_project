@@ -2,8 +2,8 @@
 
 ## 1. Informasi Penyusun
 
-- **Nama:** `I Gusti Agung Widi Adinatha`
-- **NIM:** `2515101110`
+- **Nama:** `Bima Jaya Syafutra`
+- **NIM:** `2515101064`
 - **Program Studi:** `Ilmu Komputer`
 - **Mata Kuliah:** Statistika dan Probabilitas
 

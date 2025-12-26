@@ -86,7 +86,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 	- X = Nilai_Pelanggan_Juta_IDR
 	- b0 = intercept (konstanta)
 	- b1 = slope (koefisien regresi)
-  - *Interpretasi:* Jelaskan arti dari koefisien intercept (b0) dan slope (b1) dalam konteks data Anda.
+  - Jika nilai pelanggan adalah nol, maka pendapatan tahunan perusahaan diperkirakan sebesar b0 miliar IDR.
 - **Evaluasi Model (R-squared):**
   - R² = 0,994
   - Model ini sangat kuat, karena 99,4% variasi pendapatan dapat dijelaskan oleh variasi nilai pelanggan. Hanya 0,6% yang dipengaruhi faktor lain di luar model.

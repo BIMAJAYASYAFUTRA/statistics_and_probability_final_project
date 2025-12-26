@@ -31,8 +31,8 @@ if (!exists("data_bersih")) {
 # var_dependen <- "harga_rumah"
 # var_independen <- "luas_bangunan"
 
-var_dependen <- "Penduduk_Pertengahan_Tahun"   # Seringkali sama dengan var_y dari skrip korelasi
-var_independen <- "Jumlah_Kelahiran_1_Tahun" # Seringkali sama dengan var_x dari skrip korelasi
+var_dependen <- "Pendapatan_Tahunan_Miliar_IDR"   # Seringkali sama dengan var_y dari skrip korelasi
+var_independen <- "Nilai_Pelanggan_Juta_IDR" # Seringkali sama dengan var_x dari skrip korelasi
 
 # Pastikan kolom yang dipilih ada di dalam data
 if(!var_dependen %in% names(data_bersih) || !var_independen %in% names(data_bersih)) {

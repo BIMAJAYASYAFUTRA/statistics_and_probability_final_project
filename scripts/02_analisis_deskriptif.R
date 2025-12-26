@@ -24,7 +24,7 @@ if (!exists("data_bersih")) {
 
 # Ganti dengan nama kolom numerik yang ingin Anda analisis dari dataset Anda.
 # Contoh: kolom_analisis <- "harga_rumah"
-kolom_analisis <- "Jumlah_Kelahiran_1_Tahun"
+kolom_analisis <- "Pendapatan_Tahunan_Miliar_IDR"
 
 # Pastikan kolom yang dipilih ada di dalam data
 if(!kolom_analisis %in% names(data_bersih)) {
@@ -74,7 +74,7 @@ print(summary_value)
 # -----------------------------------------------------------------
 # A. Histogram
 # Histogram membantu melihat bentuk distribusi data.
-hist_plot <- ggplot(data_bersih, aes_string(x = kolom_analisis)) +
+hist_plot <- ggplot(data_bersih, aes(x = .data[[kolom_analisis]])) +
   geom_histogram(bins = 20, fill = "skyblue", color = "white") +
   geom_vline(aes(xintercept = mean_value), color = "red", linetype = "dashed", linewidth = 1) +
   labs(

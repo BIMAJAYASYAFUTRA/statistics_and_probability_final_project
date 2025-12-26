@@ -1,9 +1,4 @@
-﻿DESA,"Jumlah
-Kelahiran 1 Tahun","Jumlah
-Kematian 1 Tahun","Penduduk
-Pertengahan Tahun","Angka
-Kelahiran Kasar","Angka
-Kematian Kasar"
+﻿DESA,"Jumlah_Kelahiran_1_Tahun","Jumlah_Kematian_1_Tahun","Penduduk_Pertengahan_Tahun","Angka_Kelahiran_Kasar","Angka_Kematian_Kasar"
 1   Banyumeneng,136,41,9518,14.29,4.31
 2   Sumberejo,128,45,8113,15.78,5.55
 3   Kebonbatur,247,81,27951,8.84,2.90

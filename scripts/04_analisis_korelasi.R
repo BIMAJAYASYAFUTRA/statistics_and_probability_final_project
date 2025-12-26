@@ -29,8 +29,8 @@ if (!exists("data_bersih")) {
 # var_x <- "luas_bangunan"
 # var_y <- "harga_rumah"
 
-var_x <- "variabel_x" 
-var_y <- "variabel_y"
+var_x <- "Jumlah_Kelahiran_1_Tahun" 
+var_y <- "Penduduk_Pertengahan_Tahun"
 
 # Pastikan kolom yang dipilih ada di dalam data
 if(!var_x %in% names(data_bersih) || !var_y %in% names(data_bersih)) {
